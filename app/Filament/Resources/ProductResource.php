@@ -32,8 +32,7 @@ class ProductResource extends Resource
                 Forms\Components\TextInput::make('price')
                     ->required(),
                 Forms\Components\TextInput::make('sale'),
-                Forms\Components\TextInput::make('cover')
-                    ->maxLength(255),
+                Forms\Components\FileUpload::make('cover')->image(),
             ]);
     }
 
