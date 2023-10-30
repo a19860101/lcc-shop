@@ -26,7 +26,7 @@ class ProductResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\Textarea::make('desc')
+                Forms\Components\RichEditor::make('desc')
                     ->required()
                     ->maxLength(65535),
                 Forms\Components\TextInput::make('price')
@@ -44,7 +44,7 @@ class ProductResource extends Resource
                 // Tables\Columns\TextColumn::make('desc'),
                 Tables\Columns\TextColumn::make('price'),
                 Tables\Columns\TextColumn::make('sale'),
-                Tables\Columns\TextColumn::make('cover'),
+                Tables\Columns\ImageColumn::make('cover'),
                 // Tables\Columns\TextColumn::make('deleted_at')
                     // ->dateTime(),
                 Tables\Columns\TextColumn::make('created_at')
