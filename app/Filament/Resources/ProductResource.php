@@ -25,10 +25,12 @@ class ProductResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('name')
                     ->required()
-                    ->maxLength(255),
+                    ->maxLength(255)
+                    ->columnSpan('full'),
                 Forms\Components\RichEditor::make('desc')
                     ->required()
-                    ->maxLength(65535),
+                    ->maxLength(65535)
+                    ->columnSpan('full'),
                 Forms\Components\TextInput::make('price')
                     ->required(),
                 Forms\Components\TextInput::make('sale'),
