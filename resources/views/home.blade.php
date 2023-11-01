@@ -31,49 +31,50 @@
     <header class="w-full aspect-[21/9]">
         <img src="https://picsum.photos/id/35/1600/900" alt="" class="w-full h-full object-cover">
     </header>
-    <section class="bg-blue-600 relative w-full">
-        <div class="w-10/12 h-[300px] relative top-[-100px]">
+    <section class="bg-blue-600/80 relative w-full">
+        <div class="w-10/12 h-[300px] relative">
             <img src="https://picsum.photos/id/98/1600/900" alt=""class="w-full h-full object-cover">
         </div>
-        <div class="w-1/2 ml-auto bg-slate-400 p-8 relative left-[-50px] top-[-200px]">
+        <div class="w-1/2 ml-auto bg-slate-400/50 backdrop-blur rounded-2xl p-8 relative top-[-50px] left-[-50px] z-50">
             <h2 class="text-4xl font-bold">title</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora et quam, fugit nisi totam debitis obcaecati blanditiis architecto minima labore expedita dolorum. Asperiores doloremque officiis eaque quo, nemo iste eum.
             </p>
         </div>
     </section>
-    <section class="py-24 bg-purple-800">
+    <section class="py-24 bg-amber-400 mt-[-100px] relative">
         <div class="container mx-auto flex flex-wrap">
             <div class="w-1/3 p-4">
-                <div class="px-8 text-center">
-                    <div class="rounded-full overflow-hidden mb-5">
-                        <img src="https://picsum.photos/id/44/600" alt="" class="w-full h-full object-cover">
+                <div class="xl:px-8 sm:px-4 px-1 text-center text-xl">
+                    <div class="rounded-full overflow-hidden mb-5 border-4 shadow-lg">
+                        <img src="https://picsum.photos/id/94/600" alt="" class="w-full h-full object-cover">
                     </div>
-                    <h3>title</h3>
+                    <h3 class="text-3xl font-bold">title</h3>
                     <p>某某口味</p>
                     <div>12,000</div>
                 </div>
             </div>
             <div class="w-1/3 p-4">
-                <div class="px-8 text-center">
-                    <div class="rounded-full overflow-hidden mb-5">
-                        <img src="https://picsum.photos/id/44/600" alt="" class="w-full h-full object-cover">
+                <div class="xl:px-8 sm:px-4 px-1 text-center text-xl">
+                    <div class="rounded-full overflow-hidden mb-5 border-4 shadow-lg">
+                        <img src="https://picsum.photos/id/94/600" alt="" class="w-full h-full object-cover">
                     </div>
-                    <h3>title</h3>
+                    <h3 class="text-3xl font-bold">title</h3>
                     <p>某某口味</p>
                     <div>12,000</div>
                 </div>
             </div>
             <div class="w-1/3 p-4">
-                <div class="px-8 text-center">
-                    <div class="rounded-full overflow-hidden mb-5">
-                        <img src="https://picsum.photos/id/44/600" alt="" class="w-full h-full object-cover">
+                <div class="xl:px-8 sm:px-4 px-1 text-center text-xl">
+                    <div class="rounded-full overflow-hidden mb-5 border-4 shadow-lg">
+                        <img src="https://picsum.photos/id/94/600" alt="" class="w-full h-full object-cover">
                     </div>
-                    <h3>title</h3>
+                    <h3 class="text-3xl font-bold">title</h3>
                     <p>某某口味</p>
                     <div>12,000</div>
                 </div>
             </div>
+
 
         </div>
     </section>
